@@ -1,7 +1,5 @@
 const Vendor = require('../models/Vendor');
 
-
-
 exports.createVendor = async (req, res) => {
     try {
         if (!req.user?._id) {
